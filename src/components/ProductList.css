@@ -1,0 +1,53 @@
+.container {
+  margin: 20px 0px;
+}
+
+.item-length {
+  color: #6c7281;
+  font-weight: 600;
+}
+
+.item-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.item {
+  padding: 32px;
+  border: 1px solid #6c7281;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipsis {
+  width: 132px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.basket-price-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.basket {
+  padding: 8px 16px;
+  background-color: white;
+  color: #6c7281;
+  font-weight: 600;
+  border: 2px solid #6c7281;
+  border-radius: 4px;
+  cursor: pointer;
+}

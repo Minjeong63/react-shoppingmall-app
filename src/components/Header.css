@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 5px solid #f2f2f2;
+  border-image-slice: 1;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 20px;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.item-number {
+  position: absolute;
+  top: 4px;
+  right: 120px;
+  font-size: 8px;
+  color: white;
+  background-color: rgb(158, 158, 158);
+  border-radius: 100px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
